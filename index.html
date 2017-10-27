@@ -27,6 +27,9 @@
     <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
 
+    <!-- moment js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Employee Data Management</title>
@@ -46,7 +49,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">Current Employees</div>
                 <div class="panel-body table-responsive">
-                    <table class="table table-hover">
+                    <table class="table table-hover" id="employee-tbl">
                         <thead>
                             <th class="text-center table-head">Employee Name</th>
                             <th class="text-center table-head">Role</th>
@@ -55,6 +58,9 @@
                             <th class="text-center table-head">Monthly Rate ($)</th>
                             <th class="text-center table-head">Total Billed ($)</th>
                         </thead>
+                        <tbody>
+
+                        </tbody>
 
                     </table>
 
@@ -99,7 +105,7 @@
             </div>
         </div>
     </div>
-<script src="assets/logic.js"></script>
+<script src="assets/js/logic.js"></script>
 </body>
 
 </html>
